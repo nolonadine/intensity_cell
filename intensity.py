@@ -77,7 +77,7 @@ for image_index in frames_with_cells:
 print(num_frames)
 
 
-#fd
+
 flatfield_correction = sum_frames/ num_frames
 flatfield_correction = flatfield_correction/np.mean(flatfield_correction)
 
